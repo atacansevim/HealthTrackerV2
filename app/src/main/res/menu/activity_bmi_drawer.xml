@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/BMI"
+
+            android:title="BMI" />
+        <item
+            android:id="@+id/EER"
+
+            android:title="EER" />
+        <item
+            android:id="@+id/PHT"
+
+            android:title="PHT" />
+    </group>
+
+</menu>
